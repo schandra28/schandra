@@ -1,0 +1,12 @@
+{
+  "packageDirectories": [
+    {
+      "path": "force-app",
+      "default": true
+    }
+  ],
+  "name": "schandra",
+  "namespace": "",
+  "sfdcLoginUrl": "https://oneview-eu--lscint.sandbox.my.salesforce.com",
+  "sourceApiVersion": "68.0"
+}
