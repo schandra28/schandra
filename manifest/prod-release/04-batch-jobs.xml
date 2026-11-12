@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 04-batch-jobs: Batch job definitions (each points at a worker flow from 03) -->
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>AL_Process_HCP_Contact_Point_Address</members>
+        <members>AL_Process_HCP_Contact_Point_Addresses</members>
+        <members>AL_Process_Provider_Affiliation_Address</members>
+        <members>AL_Process_Provider_Affiliation_Addresses</members>
+        <name>BatchProcessJobDefinition</name>
+    </types>
+    <version>68.0</version>
+</Package>

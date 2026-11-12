@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 06-ui: Page layouts, Lightning pages, tabs -->
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>AL_Privacy_Notice_Version__c</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>AL_Action_Plan_Record_Page</members>
+        <members>AL_Home_Page_LSC_Default</members>
+        <members>AL_LSCAccountHCPDemo</members>
+        <members>AL_LSC_Account_HCO</members>
+        <members>AL_Visit_Landing_Page_Sales</members>
+        <members>Account_Plan3</members>
+        <members>Account_Plan31</members>
+        <members>Account_Plan_Objective_Record_Page3</members>
+        <members>Action_Plan_Record_Page</members>
+        <members>CPVisitLandingPage</members>
+        <members>Contact_Point_Address_Record_Page</members>
+        <members>Contact_Point_Email_Record_Page</members>
+        <members>Contact_Point_Phone_Record_Page</members>
+        <members>Goal_Definition1</members>
+        <members>Healthcare_Provider_Record_Page</members>
+        <members>Healthcare_Provider_Record_Page1</members>
+        <members>Healthcare_Provider_Record_Page2</members>
+        <members>Healthcare_Provider_Specialty_Record_Page</members>
+        <members>Home_Page_LSC_Default</members>
+        <members>LSCAccountHCP</members>
+        <members>LSC_Inquiry</members>
+        <members>Life_Science_Data_Change_Request_Record_Page</members>
+        <members>Life_Science_Data_Change_Request_Record_Page1</members>
+        <members>Life_Science_Email_Record_Page</members>
+        <members>Managed_Event</members>
+        <members>Presentation_Forum_Record_Page</members>
+        <members>Presentation_Forum_Record_Page1</members>
+        <members>Privacy_Notice_Version_Record_Page</members>
+        <members>Provider_Account_Territory_Information_Record_Page</members>
+        <members>Provider_Affiliation_Record_Page</members>
+        <members>Provider_Sample_Limit_Template_Assignment_Record_Page</members>
+        <members>Provider_Visit_Detailing_Product_Message_Record_Page</members>
+        <members>Provider_Visit_Product_Detailing_Record_Page</members>
+        <members>Provider_Visit_Product_Discussion_Record_Page</members>
+        <members>Territory_User_Downtime_Record_Page</members>
+        <members>Visit_Record_Page</members>
+        <name>FlexiPage</name>
+    </types>
+    <types>
+        <members>AL_Privacy_Notice_Version__c-Privacy Notice Version Layout</members>
+        <members>AL_Privacy_Notice__c-Privacy Notice Layout</members>
+        <members>Account-HCO Account Layout</members>
+        <members>AccountPlan-AL Account Plan Layout</members>
+        <members>ActionableList-Actionable List Layout</members>
+        <members>BatchJobPartFailedRecord-Batch Job Part Failed Record Layout</members>
+        <members>CommSubConsentCmplSnpsht-Communication Subscription Consent Compliance Snapshot Layout</members>
+        <members>CommSubscriptionConsent-Communication Subscription Consent Layout</members>
+        <members>CspTrustedSite-Trusted URL Layout</members>
+        <members>DataLakeObjectInstance-Data Lake Object Layout</members>
+        <members>DataQueryWorkspace-Query Editor Layout</members>
+        <members>DataSpace-Data Space Layout</members>
+        <members>DataStream-Data Stream Layout</members>
+        <members>DataStreamDefinition-Data Stream Definition Layout</members>
+        <members>EstimatedExpensePtcpAlloc-Estimated Expense Participant Allocation Layout</members>
+        <members>EventMgmtParticipantRole-Event Management Participant Role Layout</members>
+        <members>EventMgmtParticipantType-Event Management Participant Type Layout</members>
+        <members>EventMgmtPtcpTypeRoleMap-Event Management Participant Type Role Mapping Layout</members>
+        <members>Expense-Expense Layout</members>
+        <members>ExpenseParticipant-Expense Participant Layout</members>
+        <members>Expert-Expert Layout</members>
+        <members>FlowRecord-Flow Layout</members>
+        <members>Identifier-Identifier Layout</members>
+        <members>InventoryCountAssessment-Inventory Count Assessment Layout</members>
+        <members>InventoryCountProductItem-Inventory Count Product Item Layout</members>
+        <members>InventoryOperation-Inventory Operation Layout</members>
+        <members>LifeSciAccountListColumn-Life Science Account List Column Layout</members>
+        <members>LifeSciAccountListMember-Life Science Account List Member Layout</members>
+        <members>LifeSciAcctListFilterCrit-Life Science Account List Filter Criteria Layout</members>
+        <members>LifeSciDataChangeDef-Life Science Data Change Definition Layout</members>
+        <members>LifeSciDataChangeRequest-Life Science Data Change Request Layout</members>
+        <members>LifeSciMarketableProduct-Life Science Marketable Product Layout</members>
+        <members>LifeScienceAccountList-Life Science Account List Layout</members>
+        <members>LifeScienceAccountListObject-Life Science Account List Object Layout</members>
+        <members>Location-lsc4ce__Life Science Location Layout</members>
+        <members>MktDataTransform-Data Transform Layout</members>
+        <members>MngEventParticipant-Managed Event Participant Layout</members>
+        <members>MngEventTerritory-Managed Event Territory Layout</members>
+        <members>MngEventType-Managed Event Type Layout</members>
+        <members>ObjectTerritory2AssignmentRule-Object Territory Assignment Rule Layout</members>
+        <members>OutcomeActivity-Outcome Activity Layout</members>
+        <members>PartyConsent-Party Consent Layout</members>
+        <members>PersonAccount-Person Account HCP Layout</members>
+        <members>PresentationForum-Presentation Forum Layout</members>
+        <members>Product2-Product Layout</members>
+        <members>ProductBatchItem-Product Batch Item Layout</members>
+        <members>ProductItem-Product Item Layout</members>
+        <members>ProductSpecificationRecType-Product Specification Record Type Layout</members>
+        <members>ProductSpecificationType-Product Specification Type Layout</members>
+        <members>ProductionBatch-Production Batch Layout</members>
+        <members>ProviderAcctProductInfo-Provider Account Product Information Layout</members>
+        <members>ProviderAcctTerritoryInfo-Provider Account Territory Information Layout</members>
+        <members>ProviderActivityGoalLimit-Provider Activity Goal Limit Layout</members>
+        <members>ProviderActivityMeasureType-Provider Activity Measure Type Layout</members>
+        <members>ProviderAffiliation-Provider Affiliation Layout</members>
+        <members>ProviderSampleLimitTemplate-Provider Sample Limit Template Layout</members>
+        <members>ProviderVisit-AL Group Visit Report</members>
+        <members>ProviderVisit-AL MSL Layout</members>
+        <members>ProviderVisit-AL Visit Report Optional Functions</members>
+        <members>ProviderVisit-LSC Provider Visit Layout</members>
+        <members>ProviderVisitDtlProductMsg-Provider Visit Detailing Product Message Layout</members>
+        <members>ProviderVisitProdDetailing-Provider Visit Product Detailing Layout</members>
+        <members>ProviderVisitProdDiscussion-Provider Visit Product Discussion Layout</members>
+        <members>PrvdAccountUserGroupInfo-Provider Account User Group Info Layout</members>
+        <members>RecordAlert-Record Alert Layout</members>
+        <members>Subject-Subject Layout</members>
+        <members>SubjectAssignment-Subject Assignment Layout</members>
+        <members>Survey-Survey Layout</members>
+        <members>SurveyInvitation-Survey Invitation Layout</members>
+        <members>SurveyPage-Survey Page Layout</members>
+        <members>SurveyQuestion-Survey Question Layout</members>
+        <members>SurveyQuestionChoice-Survey Question Choice Layout</members>
+        <members>SurveyQuestionResponse-Survey Question Response Layout</members>
+        <members>SurveyResponse-Survey Response Layout</members>
+        <members>SurveySubject-Survey Subject Layout</members>
+        <members>SurveyVersion-Survey Version Layout</members>
+        <members>UserTerritory2Association-User Territory Association Layout</members>
+        <members>VideoCall-Video Call Layout</members>
+        <members>VideoCallParticipant-Video Call Participant Layout</members>
+        <members>Visit-AL Group Visit Report</members>
+        <members>Visit-AL MSL Layout</members>
+        <members>Visit-AL Visit Report Optional Functions</members>
+        <members>Visit-LSC Visit Layout</members>
+        <name>Layout</name>
+    </types>
+    <version>68.0</version>
+</Package>
